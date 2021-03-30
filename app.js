@@ -20,11 +20,11 @@ tl.to(".home-title", { duration: 1 })
    .to(".home-subtitle", { duration: 1 })
 
 // ANIMATING ABOUT CONTENT
-gsap.from(".img-wrapper", {                // PROFILE PICTURE
+gsap.from(".img-wrapper", {
   scrollTrigger: ".img-wrapper",
   width: "0",
   opacity: 0,
-  duration: 1,
+  duration: 1.5,
   delay: 2.5,
   ease: "SlowMo.easeOut",
 });
