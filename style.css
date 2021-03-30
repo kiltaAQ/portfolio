@@ -16,6 +16,7 @@ html {
 }
 body {
   background: black;
+  color: white;
   min-height: 100vh;
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
 }
@@ -26,8 +27,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.split {
+  display: inline-block;
+  transform: translateY(100%);
+}
 
-/* H O M E   S E C T I O N */
+/* ----- H O M E   S E C T I O N ----- */
 
 nav {
   width: 100%;
@@ -38,6 +43,9 @@ nav {
   font-weight: 500;
   justify-content: space-between;
   padding: 30px 50px;
+}
+a {
+  color: white;
 }
 .nav-menu {
   display: flex;
@@ -80,18 +88,38 @@ nav {
   justify-content: center;
   align-items: center;
 }
+.home-content i {
+  font-size: 40px;
+  position: absolute;
+  bottom: 20px;
+  animation: bounce 2s infinite
+}
 .home-title {
   font-size: 100px;
   font-family: "Work Sans";
+  background: black;
+  overflow: hidden;
+}
+.home-title span {
+  display: inline-block;
+  transform: translateY(100%);
 }
 .home-subtitle {
+  margin-top: -25px;
   font-size: 70px;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   color: black;
+  background: black;
+  overflow: hidden;
   -webkit-text-stroke: 1px white;
 }
+.home-subtitle span {
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline-block;
+  transform: translateY(100%);
+}
 
-/* A B O U T   S E C T I O N */
+/* ----- A B O U T   S E C T I O N ----- */
 
 #about {
   min-height: 100vh;
@@ -112,6 +140,8 @@ nav {
 }
 .about-left h1 {
   font-size: 80px;
+  background: black;
+  overflow: hidden;
 }
 .about-left p {
   margin-top: 30px;
@@ -131,7 +161,6 @@ nav {
   width: 100px;
 }
 .social-link {
-  text-decoration: none;
   color: white;
   font-size: 25px;
 }
@@ -156,7 +185,7 @@ nav {
   height: 100%;
 }
 
-/* S K I L L */
+/* ----- S K I L L   S E C T I O N ----- */
 
 .skill-content {
   color: white;
@@ -169,6 +198,8 @@ nav {
 }
 .skill-content h1 {
   font-size: 80px;
+  background: black;
+  overflow: hidden;
 }
 .skill-wrapper {
   user-select: none;
@@ -209,8 +240,11 @@ nav {
   width: 100%;
 }
 
-/* P R O J E C T   S E C T I O N */
+/* ----- P R O J E C T   S E C T I O N ----- */
 
+#project {
+  height: 230vh;
+}
 .project-content {
   color: white;
   width: 100%;
@@ -220,6 +254,8 @@ nav {
 }
 .project-content h1 {
   font-size: 80px;
+  background: black;
+  overflow: hidden;
 }
 .project-wrapper {
   margin-top: 50px;
@@ -233,12 +269,14 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .box-top {
   margin-bottom: 70px;
 }
 .box {
   width: 600px;
+  height: 600px;
   position: relative;
 }
 .inner-box {
@@ -262,20 +300,111 @@ nav {
   bottom: 200px;
 }
 .box img {
-  width: 100%;
+  width: 600px;
+  height: 600px;
   transition: .3s;
-  position: relative;
-}
-.box img::after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background: black;
   position: absolute;
-  opacity: 1;
-  transition: .3s;
 }
 .box:hover img {
   opacity: 0.8;
   transform: scale(0.95);
+}
+
+/* ----- C O N T A C T ----- */
+
+#contact {
+  height: 100vh;
+}
+.contact-content {
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.contact-content h1 {
+  font-size: 80px;
+  background: black;
+  overflow: hidden;
+}
+.contact-content h3 {
+  font-size: 70px;
+  margin: 30px 0 10px 0;
+  animation: beat 5s infinite;
+}
+.contact-content p {
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.email, .phone {
+  font-size: 40px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+.email a, .phone a {
+  transition: .3s;
+}
+.email a:hover, .phone a:hover {
+  transform: scale(1.05);
+}
+
+/* F O O T E R   S E C T I O N -----*/
+
+#footer {
+  height: 20vh;
+}
+.footer-wrapper {
+  color: white;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  font-size: 20px;
+}
+.footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.social-footer {
+  display: flex;
+  list-style: none;
+}
+.social-footer li {
+  margin: 0 30px;
+  font-size: 20px;
+}
+
+/* ANIMATIONS */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+     transform: translateY(0);
+  }
+  40% {
+     transform: translateY(-20px);
+  }
+  60% {
+     transform: translateY(-15px);
+  }
+}
+@keyframes beat {
+  0%, 50%, 100% {
+    transform: scale(1.1, 1.1);
+  }
+  30%, 80% {
+    transform: scale(0.92, 0.95);
+  }
 }

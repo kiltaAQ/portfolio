@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap"
       rel="stylesheet"
@@ -14,8 +15,12 @@
     <title>Indica Fathsyah — Graphic Designer</title>
   </head>
   <body>
+
+    <!-- ----- HOME ----- -->
     <section id="home">
       <div class="wrapper">
+
+        <!-- ----- NAVBAR ----- -->
         <nav>
           <ul class="nav-menu">
             <li class="nav-link"><a href="#home" class="nav-link">HOME</a></li>
@@ -27,19 +32,30 @@
             <p>— BOGOR, ID</p>
           </div>
         </nav>
+        <!-- ----- NAVBAR ENDS ----- -->
+
         <div class="home-content">
-          <h1 class="home-title">Indica Fathsyah</h1>
-          <h3 class="home-subtitle">Graphic Designer</h3>
+          <h1 class="home-title"><span class="home-title">Indica Fathsyah</span></h1>
+          <h3 class="home-subtitle"><span class="home-title">Graphic Designer</span></h3>
+          <!-- <i class="fas fa-chevron-down"></i> -->
+          <i class="fas fa-caret-down"></i>
         </div>
       </div>
     </section>
+    <!-- ----- HOME SECTION ENDS ----- -->
+
+    <!-- ----- ABOUT SECTION ----- -->
     <section id="about">
       <div class="wrapper">
+
+        <!-- ----- ABOUT CONTENT ----- -->
         <div class="about-content">
+
+          <!-- ----- LEFT SECTION ----- -->
           <div class="about-left">
             <div class="text">
-              <h1>HOLA,</h1>
-              <h1>MIGOS!</h1>
+              <h1><span class="split about">HOLA,</span></h1>
+              <h1><span class="split about">MIGOS!</span></h1>
               <p>
                 My name is Zahra Indica Fathsyah. I'm a high school student at
                 <a href="https://smkn1cibinong.sch.id/main/" target="_blank"
@@ -53,28 +69,41 @@
               <li><a href="#" class="social-link">Spotify</a></li>
             </ul>
           </div>
+          <!-- ----- LEFT SECTION ENDS ----- -->
+
+          <!-- ----- RIGHT SECTION ----- -->
           <div class="about-right">
              <div class="img-wrapper">
                 <img class="char-img" src="img/char.jpg" alt="Indica Fathsyah" />
              </div>
           </div>
+          <!-- ----- RIGHT SECTION ENDS ----- -->
+
         </div>
+        <!-- ----- ABOUT CONTENT ENDS ----- -->
+
       </div>
     </section>
+    <!-- ----- ABOUT SECTION ENDS ----- -->
+
+    <!-- ----- SKILL SECTION ----- -->
     <section id="skill">
       <div class="wrapper">
         <div class="skill-content">
-          <h1>SKILLS</h1>
+          <h1><span class="split skill">SKILLS</span></h1>
+          <!-- ----- SKILLS FIRST LINE ----- -->
           <div class="skill-wrapper">
             <p>
               <span data-text="HTML">HTML</span> —
               <span data-text="CSS">CSS</span> —
               <span data-text="SASS">SASS</span>
             </p>
+            <!-- ----- SKILLS SECOND LINE ----- -->
             <p>
               <span data-text="JavaScript">JavaScript</span> —
               <span data-text="PHP">PHP</span>
             </p>
+            <!-- ----- SKILLS THIRD LINE ----- -->
             <p>
               <span data-text="PS">PS</span> —
               <span data-text="Blender">Blender</span>
@@ -83,19 +112,24 @@
         </div>
       </div>
     </section>
+    <!-- ----- SKILL SECTION ENDS ----- -->
+
+    <!-- ----- PROJECT SECTION ----- -->
     <section id="project">
       <div class="wrapper">
         <div class="project-content">
-          <h1>PROJECTS</h1>
+          <h1><span class="split project">PROJECTS</span></h1>
          <div class="project-wrapper">
+
+           <!-- ----- TOP BOX (FIRST TWO PROJECT IMG AT THE TOP) ----- -->
             <div class="box-top">
-               <div class="box">
-                  <img src="img/quatro.jpg" alt="">
-                  <div class="inner-box">
-                     <h2>Quatro T-Shirt</h2>
-                     <a href="#">Check it out →</a>
-                  </div>
-               </div>
+                <div class="box">
+                   <img src="img/quatro.jpg" alt="">
+                   <div class="inner-box">
+                      <h2>Quatro T-Shirt</h2>
+                      <a href="#">Check it out →</a>
+                   </div>
+                </div>  
                <div class="box">
                   <img src="img/prypyat.jpg" alt="">
                   <div class="inner-box">
@@ -104,6 +138,8 @@
                   </div>
                </div>
             </div>
+
+            <!-- ----- BOTTOM BOX (TWO PROJECT IMG AT THE BOTTOM) ----- -->
             <div class="box-bottom">
                <div class="box">
                   <img src="img/europa.jpg" alt="">
@@ -123,13 +159,45 @@
          </div>
       </div>
     </section>
-    <section id="contact"></section>
-    <section id="footer"></section>
+    <!-- ----- PROJECT SECTION ENDS ----- -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <!-- ----- CONTACT SECTION ----- -->
+    <section id="contact">
+      <div class="contact-content">
+        <h1><span class="split contact">CONTACT ME!</span></h1>
+        <h3>💬</h3>
+        <p>OR JUST HAVE A CHAT</p>
+        <div class="email">
+          <a href="mailto:indica.fathsyah@gmail.com">📧 indica.fathsyah@gmail.com</a>
+        </div>
+        <div class="phone">
+          <a href="tel: +6281311960019">📞 +62 813 1196 0019</a>
+        </div>
+      </div>
+    </section>
+    <!-- ----- CONTACT SECTION ENDS ----- -->
+
+    <!-- ----- FOOTER SECTION ----- -->
+    <section id="footer">
+      <div class="footer-wrapper">
+        <div class="footer-left">
+          <p>Copyright © 2021 Zahra Indica Fathsyah</p>
+        </div>
+        <div class="footer-right">
+          <ul class="social-footer">
+            <li><a href="#" class="footer-link">Instagram</a></li>
+            <li><a href="#" class="footer-link">GitHub</a></li>
+            <li><a href="#" class="footer-link">Spotify</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ----- FOOTER SECTION ENDS ----- -->
+
+    <!-- ----- SCRIPTS ----- -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/EasePack.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
