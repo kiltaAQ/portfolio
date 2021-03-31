@@ -4,7 +4,7 @@ This is my new portfolio. I made this portfolio to showcase my projects and intr
 
 ## Notes
 
-* This portfolio still not yet responsive.
+* This portfolio still not responsive yet.
 * Using GSAP Animation
 * app.js file still very messy since I'm not using timeline for animating with GSAP. 
 
