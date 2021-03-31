@@ -8,7 +8,7 @@ This is my new portfolio. I made this portfolio to showcase my projects and intr
 * Using GSAP Animation
 * app.js file still very messy since I'm not using timeline for animating with GSAP. 
 
-*Here's the CDNs. In case you wanna use it. Even though it's already on the code.
+*Here's the GSAP CDNs. In case you wanna use it. Even though it's already on the code.
 
 ``` html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
