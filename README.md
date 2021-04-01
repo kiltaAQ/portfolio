@@ -1,6 +1,6 @@
 # Indica's Portfolio Project
 
-This is my new portfolio. I made this portfolio to showcase my projects and introduce myself to the clients.
+This is my new portfolio. I made this portfolio to showcase my projects and introduce myself to the clients. I changed literally everything from the previous version of this portfolio. It's just looks like the whole new portfolio ngl.
 
 ## Demo
 [Web Demo](https://horuschild.github.io/portfolio/)
