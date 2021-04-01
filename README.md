@@ -3,7 +3,7 @@
 This is my new portfolio. I made this portfolio to showcase my projects and introduce myself to the clients.
 
 ## Demo
-[Web Demo](hosruchild.github.io/portfolio)
+[Web Demo](horuschild.github.io/portfolio)
 
 ## Notes
 
