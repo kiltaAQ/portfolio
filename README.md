@@ -2,6 +2,9 @@
 
 This is my new portfolio. I made this portfolio to showcase my projects and introduce myself to the clients.
 
+## Demo
+[Web Demo](hosruchild.github.io/portfolio)
+
 ## Notes
 
 * This portfolio still not responsive yet.
