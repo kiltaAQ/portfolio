@@ -36,9 +36,7 @@ gsap.fromTo()  // 3
 ## Learn More...
 
 Here's my 'more detailed' documentation link
-and other resource that I hope will help you. Or you can just ask me.
-
-[My Phone Number](tel:+6281311960019)
+and other resource that I hope will help you.
 
 [My Documentation](https://drive.google.com/file/d/1sUU4oH2aYXJLg-qRA2KokxkkASd3Bi-p/view?usp=sharing)
 
